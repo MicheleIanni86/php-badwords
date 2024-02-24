@@ -9,6 +9,28 @@
 
 </head>
 <body>
-    
+    <div class="container mt-5 text-center">
+
+        <form action="./result.php" method="GET" class="text-center ">
+            
+            <div class="row text-center">
+
+                <div class="mb-3 col-6 mx-auto">
+                    <label for="inputText" class="form-label">Inserisci qui il tuo testo:</label>
+                    <textarea class="form-control" id="inputText" name="inputText"></textarea>
+                </div>
+            
+            </div>
+            <div class="row text-center">
+
+                <div class="mb-3 col-3 mx-auto">
+                    <label for="wrongWord" class="form-label">Inserisci qui la parola da censurare</label>
+                    <input type="text" class="form-control" id="wrongWord" name="wrongWord">
+                </div>
+                
+            </div>
+            <button type="submit" class="btn btn-primary">Invia!</button>
+        </form>
+    </div>
 </body>
 </html>
